@@ -70,8 +70,8 @@
 	margin-left: 510px;
 }
 
-/*
-.btn_sec1_BOXES a {
+
+.headerName a {
 	position: absolute;
 	margin-top:210px;
 	cursor:pointer;
@@ -86,27 +86,28 @@
 	text-decoration: none;
 	transition: opacity .3s;
 }
-.btn_sec1_BOXES a:hover {
+.headerName a:hover {
   opacity: .5;
   text-decoration: none;
   color: #fff;
 }
 
-#btn_sec1_BOXES a {
-  padding-top: 60px;
+#headerName a {
+  margin-top:130px;
+  margin-left:100px;
 }
-#btn_sec1_BOXES a span {
+#headerName a span {
   position: absolute;
   top: 0;
   left: 50%;
   width: 30px;
   height: 50px;
   margin-left: -15px;
-  border: 2px solid #198506;
+  border: 2px solid white;
   border-radius: 50px;
   box-sizing: border-box;
 }
-#btn_sec1_BOXES a span::before {
+#headerName a span::before {
   position: absolute;
   top: 10px;
   left: 50%;
@@ -114,7 +115,7 @@
   width: 6px;
   height: 6px;
   margin-left: -3px;
-  background-color: #198506;
+  background-color: white;
   border-radius: 100%;
   -webkit-animation: sdb10 2s infinite;
   animation: sdb10 2s infinite;
@@ -153,12 +154,12 @@
     opacity: 0;
   }
 }
-*/
+
 
 	/*BACK TO TOP BTN*/
 #button_top {
 	display: inline-block;
-	background-color: #198506;
+	background-color: #91bfcf;
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -183,7 +184,7 @@
 }
 #button_top:hover {
 	cursor: pointer;
-	background-color: #37BB1F;
+	background-color: #91bfcf;
 
 }
 #button_top:active {
@@ -418,6 +419,7 @@
 /*********************PIC SLIDER ****************SEC 1*/
 .car_1, .slide1, .carousel-inner .active{
 	height:100%;
+	background-attachment: fixed;
 	}
 	.inner1 {
 	height:100%;
@@ -532,7 +534,7 @@
 	object-fit: cover;
 }
 
-/*/////////////////////////////////////////////////////////////////SECTION 6/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////SECTION 7/////////////////////////////////////////////////////////*/
 
 .sec7_header{
 	margin-top: 0px;
@@ -563,22 +565,235 @@
 	font-size:50px;
 }
 
+/*/////////////////////////////////////////////////////////////////SECTION 8/////////////////////////////////////////////////////////*/
+
+.sec8_header{
+	margin-top: 0px;
+	padding-top:200px;
+	margin-left: 270px;
+	text-align: center;	
+	width: 800px;
+	background: transparent
+}
+
+
+.sec8_header img{
+	width:800px;
+	height:600px;
+	position: absolute;
+	margin-top:-50px;
+	margin-left:-210px;
+	object-fit: cover;
+}
+.sec8_header h2{
+	color: #333;
+	font-size: 20px;
+	font-family: "Courier New";
+	margin-top:20px;
+	padding-left:-50px;
+}
+	
+
+.sec8_header h1{
+	font-size: 150px;
+	margin-top:40px;
+	margin-left: -150px;
+	color: #91bfcf;
+	font-family: "Gabriola";
+	position: absolute;
+	padding-top: 1000px;
+}
+
+
+.sec8_img2, .sec8_img3, .sec8_img4, .sec8_img5{
+	background:transparent;
+}
+
+.sec8_img2 img{
+	height:600px;
+	width: 370px;
+	position: absolute;
+	margin-top:-50px;
+	margin-left:80px;
+	object-fit: cover;
+}
+
+.sec8_img3 img{
+	height:330px;
+	position: absolute;
+	margin-top:560px;
+	margin-left:930px;
+	object-fit: cover;
+}
+.sec8_img4 img{
+	height:330px;
+	position: absolute;
+	margin-top:560px;
+	margin-left:590px;
+	object-fit: cover;
+}
+.sec8_img5 img{
+	height:330px;
+	width: 500px;
+	position: absolute;
+	margin-top:540px;
+	margin-left:80px;
+	object-fit: cover;
+}
+
+.sec8_img5 h2{
+	margin-left:120px;
+	color: #333;
+	padding-top:1000px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.sec8_img5 p{
+	margin-left:480px;
+	padding-top: 120px;
+	color: #333;
+	font-size:20px;
+	text-align: left;
+	width: 800px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/*/////////////////////////////////////////////////////////////////SECTION 9/////////////////////////////////////////////////////////*/
+
+.sec9_img img{
+	height:330px;
+	width: 720px;
+	position: absolute;
+	margin-top:40px;
+	margin-left:80px;
+	object-fit: cover;
+}
+
+.sec9_img2 img{
+	height:90%;
+	position: absolute;
+	margin-top:40px;
+	margin-left:810px;
+	object-fit: cover;
+}
+
+
+.sec9_img3 img{
+	height:223px;
+	width:400px;
+	position: absolute;
+	margin-top:380px;
+	margin-left:400px;
+	object-fit: cover;
+}
+
+.sec9_img4 img{
+	width:310px;
+	height:500px;
+	position: absolute;
+	margin-top:380px;
+	margin-left:80px;
+	object-fit: cover;
+}
+
+.sec9_img5 img{
+	width:470px;
+	height:270px;
+	position: absolute;
+	margin-top:612px;
+	margin-left:400px;
+	object-fit: cover;
+}
+
+.sec9_img6 img{
+	width:380px;
+	height:270px;
+	position: absolute;
+	margin-top:612px;
+	margin-left:880px;
+	object-fit: cover;
+}
+
+/*/////////////////////////////////////////////////////////////////SECTION 10/////////////////////////////////////////////////////////*/
+.sec10_header{
+	background-color: #333;
+	width: 600px;
+	height:70px;
+	margin-top:60px;
+	position: absolute;
+}
+
+.sec10_header h1{
+	color: white;
+	position: absolute;
+	font-family: 'Segoe UI Light';
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.RX{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 60px;
+	text-align: center;
+}
+
+.RX i{
+	color: #333;
+	font-size:80px;
+	margin-top: -100px;
+	margin-left: 140px;
+	position: absolute;
+}
 
 
 
+.Safety{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 480px;
+	text-align: center;
+}
+
+.Safety i{
+	color: #333;
+	font-size:80px;
+	margin-top: -100px;
+	margin-left: 160px;
+	position: absolute;
+}
+
+.Oppress{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 900px;
+	text-align: center;
+}
+
+.Oppress i{
+	color: #333;
+	font-size:80px;
+	margin-top: -100px;
+	margin-left: 160px;
+	position: absolute;
+}
 
 
+.RX h1, .Safety h1, .Oppress h1{
+	font-family: 'Gabriola';
+	font-size:40px ;
+	border-bottom: 1px solid #333;
+	width: 300px;	
+	margin-left:50px;
+}
 
-
-
-
-
-
-
-
-
-
-
+.RX p, .Safety p, .Oppress p{
+	font-family: 'Courier New';
+	font-size:18px ;
+	width: 300px;	
+	padding-top:10px;
+	margin-left:50px;
+}
 
 
 
