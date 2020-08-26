@@ -1,0 +1,17 @@
+.section-padding{
+	padding: 10px 0;
+}
+
+.brand-carousel{
+	margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.single-logo img{
+	width:200px;
+	height:250px;
+	object-fit: cover;
+}
+
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}

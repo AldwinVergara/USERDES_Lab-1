@@ -4,15 +4,174 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Aldwin Vergara</title>
-  <meta name="description" content="About Aldwin Vergara HELLO">
-  <meta name="author" content="SitePoint">
+  <meta charset="utf-8">
+   <title>About Aldwin</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="shortcut icon" href="img/logo.png">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
+  <!--CSS import-->
+  <link rel="stylesheet" href="css/section.css"> 
+  <link rel="stylesheet" href="css/sec_CSS.css"> 
+  <link rel="shortcut icon" href="../favicon.ico"> 
+
+  <!--Font Awesome import-->	 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!--Back to top btn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <script src="https://kit.fontawesome.com/4eb4a43618.js" crossorigin="anonymous"></script>
+
+  <!--Bootstrap import-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <!--JS import-->
+	<script src="js/modernizr.custom.63321.js"></script>
+  
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  <!------------------------------------------------SECTION 1----------------------------------------------------------------------------------->
+  <section class="sec1">
+    <!--CAROUSEL - pic slider-->
+    <!-- Carousel 100% Fullscreen --
+    <div id="myCarousel" class="carousel slide car_1" data-ride="carousel">
+      
+      <div class="carousel-inner inner1">
+        <div class="item slide1 bg bg1 active"></div>
+        <div class="item slide1 bg bg2"></div>
+        <div class="item slide1 bg bg3"> </div>
+        <div class="item slide1 bg bg4"> </div>
+      </div>
+      
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"></span></a>
+      </div>
+    -->
+
+    <!--HEADER NAME-->
+    <div class="headerName" id="headerNAme">
+      <h2>Hello!</h2>
+      <h1>I'm Aldwin</h1>
+    </div>
+    
+    <div class="btn_sec1_BOXES" id="btn_sec1_BOXES">
+      <button class="btn_box1" id="btn_box1" type="button" >Who Am I?</button>
+      <button class="btn_box2" id="btn_box2" type="button" >Family</button>
+      <button class="btn_box3" id="btn_box3" type="button" >Interests</button>
+      <button class="btn_box4" id="btn_box4" type="button" >Friends</button>
+      <!--<a id="btn_name"><span></span>Scroll Down To Know Aldwin</a>-->
+    </div>
+  </section>
+
+  <!------------------------------------------------SECTION 2 (INTRODUCTION)----------------------------------------------------------------------------------->
+  <section class="sec2" id="sec2">
+    <div class="littleBox" id="littleBox"></div>
+    <div class="sec2_img"><img src="img/aldwin2.jpg"/></div>
+
+    <div class="intro_Box" id ="intro_Box">
+      <h1>RESEARCHER. PERFORMER. INVENTOR.</h1>
+      <p>DETAILS HEREEE.........
+        DETAILS HEREEE.........
+        DETAILS HEREEE.........
+
+        DETAILS HEREEE.........DETAILS HEREEE.........
+        DETAILS HEREEE.........
+        DETAILS HEREEE.........
+        DETAILS HEREEE.........
+        DETAILS HEREEE.........
+
+
+      </p>
+    </div>
+    
+    <div class="verse" id ="verse">
+      <h1>"Trust in the LORD with all your heart; and lean not on your own understanding."</h1>
+      <h2>Proverbs 3:5</h2>
+    </div>
+  </section>
+
+  <!------------------------------------------------SECTION 3----------------------------------------------------------------------------------->
+  <section class="sec3" id="sec3"></section>
+
+  <!------------------------------------------------SECTION 4----------------------------------------------------------------------------------->
+  <section class="sec4" id="sec4">
+    <div class="title" id ="title">
+      <h1>FAMILY</h1>
+    </div>
+  </section>
+
+  <!------------------------------------------------SECTION 5----------------------------------------------------------------------------------->
+  <section class="sec5" id="sec5">
+    <div class="box" id ="boxulet">
+      <h1>HELLO!!!!!!!!!!1</h1>
+    </div>
+  </section>
+
+<!--Back to Top button-->
+<a id="button_top" title="Go back to top"></a>
+
+
+<script>
+  /////////////////////////////////////////////////*FOR SCROLL DOWN*/////////////////////////
+  
+    ////to Intro////
+  $("#btn_box1").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#sec2").offset().top
+      }, 500);
+  });
+
+   ////to Family////
+   $("#btn_box2").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#sec4").offset().top
+      }, 500);
+  });
+
+   ////to Interests////
+   $("#btn_box3").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#sec4").offset().top
+      }, 500);
+  });
+
+   ////to Organization////
+   $("#btn_box4").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#sec5").offset().top
+      }, 500);
+  });
+
+  ////////*BACK TO TOP BTN*////////
+  var btn = $('#button_top');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+
+  $('.list_products').on('click','a', function(){
+    $(this).addClass('active').siblings().removeClass('active');
+  });
+</script>
+
+
+
+    
 </body>
 </html>

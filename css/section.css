@@ -1,0 +1,46 @@
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+	
+	}
+
+section{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	}
+	
+	section.sec1{
+		height:1000px;
+		background: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../img/aldwin6.jpg);
+		height: 650px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	  
+	}
+	
+
+	section.sec2 {
+		background-color: #ffffff;
+		margin-top:-20px;
+		height:900px;
+	}
+
+	section.sec3 {
+		background-image: url(../img/aldwin1.jpg);
+		background-color: #ffffff;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		margin-top:0px;
+		height:500px;
+	}
+	
+	section.sec4 {
+		background-color: #ffffff;
+		height:900px;
+	}
+	
