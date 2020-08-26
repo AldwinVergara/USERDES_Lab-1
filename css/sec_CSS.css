@@ -1,31 +1,32 @@
 /*/////////////////////////////////////////////////////////////////SECTION 1/////////////////////////////////////////////////////////*/
 
 .headerName{
-	margin-top: 0px;
+	margin-top: 10px;
 	padding-top: 150px;
 	padding-left: 550px;
 }
 
 .headerName h1{
-	font-size: 130px;
-	margin-top:-20px;
+	font-size: 110px;
+	margin-top:-14px;
 	color: white;
-	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-shadow: 2px 2px 3px rgba(0, 1, 0, 0.7);
+	font-family: "Lobster", serif;
 }
 
 .headerName h2{
 	color: white;
-	font-size: 80px;
+	font-size: 60px;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
-	font-family: "Lobster", serif;
+	font-family: "Gabriola";
+	margin-top:50px;
 }
 
 .btn_sec1_BOXES{
 	width: 100px;
-	margin-top: -20px;
+	margin-top: 20px;
 	margin-left: 560px;
-
+	font-family: 'Segoe UI Light';
 }
 .btn_box1, .btn_box2, .btn_box3, .btn_box4{
 	background-color: transparent;
@@ -154,58 +155,6 @@
 }
 */
 
-/*********************PIC SLIDER ****************SEC 1
-.car_1, .slide1, .carousel-inner .active{
-	height:100%;
-	}
-	.inner1 {
-	height:100%;
-	
-	}
-	.car_1 {
-	margin-bottom: 60px;
-	}
-	.carousel-item {
-	  display: block;
-	  position: absolute;
-	  opacity: 0;
-	  transition: opacity .75s ease-in-out;
-	}
-	.carousel-item.active {
-	  opacity: 1;
-	}
-	.car_1 .slide1 {
-	background-color: #777;
-	}
-	.car_1 .carousel-inner .bg {
-	background-repeat:no-repeat;
-	background-size:cover;
-	}
-	.car_1 .carousel-inner .bg1 {
-		
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../img/BG1.jfif);
-	background-position: center top;
-	filter:brightness(60%);
-	}
-	
-	.car_1 .carousel-inner .bg2 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/BG1.jpg);
-	background-position: center center;
-	filter:brightness(100%);
-	}
-	.car_1 .carousel-inner .bg3 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/bg2.jpg);
-	background-position: center bottom;
-	filter:brightness(90%);
-	}
-	
-	.car_1 .carousel-inner .bg4 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/Stars.jpg);
-	background-position: center bottom;
-	filter:brightness(90%);
-	
-	}*/
-
 	/*BACK TO TOP BTN*/
 #button_top {
 	display: inline-block;
@@ -304,6 +253,344 @@
 	padding-left: 300px;
 	font-family: 'Courier New', Courier, monospace;
 }
+
+
+/*/////////////////////////////////////////////////////////////////SECTION 4/////////////////////////////////////////////////////////*/
+.title{
+	margin-top: 100px;
+	margin-left: 550px;
+	background: transparent;
+}
+.title hr{
+	display: block;
+	height: 1px;
+	width: 300px;
+	border: 0;
+	border-top: 1px solid #333;
+	padding: 0;
+	margin-top:75px;
+	margin-left: -350px;
+	position: absolute;
+	
+}
+
+.title h4{
+	display: block;
+	height: 1px;
+	width: 300px;
+	border: 0;
+	border-top: 1px solid #333;
+	padding: 0;
+	margin-top:-75px;
+	margin-left: 285px;
+	position: absolute;
+	
+}
+
+.title h1 {
+	padding-top: 30px;
+	font-size: 100px;
+	font-family: 'Gabriola';
+}
+
+.title h3{
+	margin-top: -20px;
+	margin-left: 25px;
+	font-size: 20px;
+	font-family: 'Courier New';
+}
+
+/*----------FAM MEMBERS---------*/
+.fam1_pic{
+	margin-top:650px;
+	margin-left: -800px;
+}
+.fam1_pic img, .fam2_pic img, .fam3_pic img, .fam4_pic img{
+	height:350px;
+	width:450px;
+	position: absolute;
+	float:right;
+	
+	object-fit: cover;
+	position: absolute;
+	box-shadow: 5px 10px 8px rgba(0,0,0, 0.3);
+}
+
+
+
+.fam1, .fam2, .fam3, .fam4{
+	background-color: #E8E8ED;
+	width:730px;
+	height: 350px;
+	
+}
+
+.fam1 h1, .fam2 h1, .fam3 h1, .fam4 h1{
+	padding-top:30px;
+	padding-left: 30px;
+	font-family: 'Gabriola';
+}
+
+.fam1 h3, .fam2 h3, .fam3 h3, .fam4 h3{
+	font-size:20px;
+	margin-top:-10px;
+	padding-left: 30px;
+	font-family: 'Segoe UI Light';
+}
+
+.fam1 p,.fam2 p, .fam3 p, .fam4 p{
+	font-size: 15px;
+	margin-top:30px;
+	padding-left:30px;
+	padding-right:30px;
+	font-family: 'Courier New';
+	height:120px;
+}
+
+.fam_btn{
+	background-color: #91bfcf;
+	border: 2px solid #91bfcf;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	padding: 8px;
+	width: 160px;
+	transition: all 0.5s;
+	cursor: pointer;
+	z-index:2;
+	position:absolute;
+	margin-top:30px;
+	margin-left:30px;
+}
+
+.fam_btn:hover{
+	background-color: transparent;
+	border: 2px solid #91bfcf;
+	color:#91bfcf;
+	cursor: pointer;
+	transition:0.1s;
+}
+
+
+.fam1_pic img{
+	margin-top:-580px;
+	margin-left:870px;
+}
+
+.fam2_pic img{
+	margin-top:40px;
+	margin-left:830px;
+}
+
+.fam3_pic img{
+	margin-top:40px;
+	margin-left:70px;
+}
+
+.fam4_pic img{
+	margin-top:40px;
+	margin-left:830px;
+}
+
+.fam1{
+	margin-left: 550px;
+	margin-top: -580px;
+}	
+
+.fam2{
+	margin-top:40px;
+	margin-left:70px;
+}
+
+.fam3{
+	margin-top:40px;
+	margin-left:550px;
+	
+}
+
+.fam4{
+	margin-top:40px;
+	margin-left:70px;
+}
+
+/*/////////////////////////////////////////////////////////////////SECTION 5/////////////////////////////////////////////////////////*/
+
+/*********************PIC SLIDER ****************SEC 1*/
+.car_1, .slide1, .carousel-inner .active{
+	height:100%;
+	}
+	.inner1 {
+	height:100%;
+	
+	}
+	.car_1 {
+	margin-bottom: 60px;
+	}
+	.carousel-item {
+	  display: block;
+	  position: absolute;
+	  opacity: 0;
+	  transition: opacity .75s ease-in-out;
+	}
+	.carousel-item.active {
+	  opacity: 1;
+	}
+	.car_1 .slide1 {
+	background-color: #777;
+	}
+	.car_1 .carousel-inner .bg {
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+	.car_1 .carousel-inner .bg1 {
+		
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../img/BG1.jfif);
+	background-position: center top;
+	filter:brightness(100%);
+	}
+	
+	.car_1 .carousel-inner .bg2 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/BG1.jpg);
+	background-position: center center;
+	filter:brightness(100%);
+	}
+	.car_1 .carousel-inner .bg3 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/bg2.jpg);
+	background-position: center bottom;
+	filter:brightness(100%);
+	}
+	
+	.car_1 .carousel-inner .bg4 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/Stars.jpg);
+	background-position: center bottom;
+	filter:brightness(100%);
+	
+	}
+
+.carousel-caption {
+	z-index: 10;
+	}
+
+.carousel-caption h1{
+	font-family: 'Gabriola';
+	font-size: 100px;
+}
+
+.carousel-caption p{
+	font-family: 'Courier New';
+	font-size: 20px;
+}
+
+/*/////////////////////////////////////////////////////////////////SECTION 6/////////////////////////////////////////////////////////*/
+
+.sec6_header{
+	margin-top: 0px;
+	padding-top:140px;
+	margin-left: 330px;
+	text-align: center;	
+	width: 700px;
+}
+
+.sec6_header h1{
+	font-size: 90px;
+	margin-top:-14px;
+	color: #333;
+	font-family: "Gabriola";
+}
+
+.sec6_header h2{
+	color: #333;
+	font-size: 20px;
+	font-family: "Courier New";
+	margin-top:20px;
+}
+
+.sec6_img1 img{
+	height:90%;
+	position: absolute;
+	float:right;
+	margin-top:100px;
+	margin-left:60px;
+	object-fit: cover;
+}
+
+.sec6_img2 img{
+	height:90%;
+	position: absolute;
+	float:right;
+	margin-top:170px;
+	margin-left:490px;
+	object-fit: cover;
+}
+
+.sec6_img3 img{
+	height:90%;
+	position: absolute;
+	float:right;
+	margin-top:100px;
+	margin-left:920px;
+	object-fit: cover;
+}
+
+/*/////////////////////////////////////////////////////////////////SECTION 6/////////////////////////////////////////////////////////*/
+
+.sec7_header{
+	margin-top: 0px;
+	padding-top:80px;
+	margin-left: 270px;
+	text-align: center;	
+	width: 800px;
+}
+
+.sec7_header h1{
+	font-size: 90px;
+	margin-top:20px;
+	color: white;
+	
+	font-family: "Gabriola";
+}
+
+.sec7_header h2{
+	color: white;
+	font-size: 20px;
+	font-family: "Courier New";
+	margin-top:20px;
+}
+
+.sec7_header i{
+	margin-top: -60px;
+	color: white;
+	font-size:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
