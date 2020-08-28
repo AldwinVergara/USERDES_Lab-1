@@ -849,20 +849,7 @@
 
 
 /*/////////////////////////////////////////////////////////////////SECTION 11/////////////////////////////////////////////////////////*/
-.team1 img,
-.team2 img,
-.team3 img,
-.team4 img,
-.team5 img,
-.team6 img,
-.team7 img,
-.team8 img,
-.team9 img,
-.team10 img,
-.team11 img,
-.team12 img,
-.team13 img,
-.team14 img{
+.team img{
 	width:240px;
 	height:240px;
 	object-fit: cover;
@@ -992,7 +979,7 @@
 
 .mes {
 	margin-top:400px;
-	margin-left: -510px;
+	margin-left: 230px;
 	width:1000px;
 	position: absolute;
 }
@@ -1024,7 +1011,7 @@
 	  transition: opacity .75s ease-in-out;
 	}
 	.carousell-item.active {
-	  opacity: 1;
+	  opacity: 1;	
 	}
 	.car_2 .slide1 {
 	background-color: #777;
@@ -1035,57 +1022,162 @@
 	}
 	.car_2 .carousel-inner .bg1 {
 		
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../img/fam1.jpg);
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../img/sbg2.jpg);
 	background-position: center top;
 	filter:brightness(100%);
 	}
 	
 	.car_2 .carousel-inner .bg2 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam4.jpg);
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends\ 1.JPG);
 	background-position: center center;
 	filter:brightness(100%);
 	}
 	.car_2 .carousel-inner .bg3 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam2.jpg);
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends2.JPG);
 	background-position: center bottom;
 	filter:brightness(100%);
 	}
 	
 	.car_2 .carousel-inner .bg4 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam5.jpg);
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends3.jpg);
 	background-position: center bottom;
 	filter:brightness(100%);
 	}
 
 	.car_2 .carousel-inner .bg5 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam3.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/sbg1.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 		}
 	
 	.car_2 .carousel-inner .bg6 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam6.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends4.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 	}
 
 	.car_2 .carousel-inner .bg7 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam10.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends5.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 
 	}.car_2 .carousel-inner .bg8 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam7.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends6.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 
 	}.car_2 .carousel-inner .bg9 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam8.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/sbg3.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 
 	}.car_2 .carousel-inner .bg10 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam9.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends7.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 	}
+
+}.car_2 .carousel-inner .bg11 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends8.jpg);
+	background-position: center bottom;
+	filter:brightness(100%);
+
+}.car_2 .carousel-inner .bg12 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends9.jpg);
+	background-position: center bottom;
+	filter:brightness(100%);
+}
+
+/*---------------------------------------------------------SECTION 13------------------------------------------*/
+.sec13_pic img{
+	height:600px;
+	width:900px;
+	float:right;
+	object-fit: cover;
+}
+
+.sec13_info{
+	position: absolute;
+	
+	height:600px;
+	background: transparent;
+	margin-top:100px;
+	color: #333;
+	margin-left:40px;
+}
+.sec13_info h1{
+	font-size: 120px;
+	font-family: 'Gabriola';
+}
+
+.sec13_info h3{
+	font-size: 30px;
+	margin-top:-30px;
+	font-family: 'Segoe UI Light';
+}
+
+.sec13_info p{
+	margin-top:50px;
+	font-size:20px;
+	width:900px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.sec13_info h2{
+	width:1300px;
+	margin-top:-10px;
+	padding-right: 40px;
+	font-size:20px;
+	color:#333;
+	line-height: 150%;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*---------------------------------------------------------SECTION 14------------------------------------------*/
+.follow{
+	margin-top:250px;
+	
+	text-align: center;
+	width:100%;
+	font-family: 'Gabriola';
+}
+
+.follow h1{
+	font-size:60px;
+}
+
+.icons {
+	width: 100%;
+	text-align: center;
+	font-size:150px;
+}
+
+.icons a{
+	color: #333;
+}
+
+.icons a:hover{
+	color: #333;
+}
+
+.icons a:active{
+ color:#333;
+ opacity: 0.7;
+}
+
+.icons a::after{
+	color: #333;
+}
+
+.icons a i{
+	margin-right:50px;
+}
+
+.footer{
+	font-family: 'Courier New', Courier, monospace;
+	font-size:15px;
+	width: 100%;
+	height:50px;
+	text-align: center;
+}
