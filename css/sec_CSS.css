@@ -498,7 +498,7 @@
 		filter:brightness(100%);
 
 	}.car_1 .carousel-inner .bg9 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/fam8.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(https://imgur.com/r78guqk.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 
@@ -1062,7 +1062,7 @@
 		filter:brightness(100%);
 
 	}.car_2 .carousel-inner .bg8 {
-		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends6.jpg);
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(https://imgur.com/JKPS3wj.jpg);
 		background-position: center bottom;
 		filter:brightness(100%);
 
@@ -1078,12 +1078,12 @@
 	}
 
 }.car_2 .carousel-inner .bg11 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends8.jpg);
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends9.jpg);
 	background-position: center bottom;
 	filter:brightness(100%);
 
 }.car_2 .carousel-inner .bg12 {
-	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends9.jpg);
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/friends6.jpg);
 	background-position: center bottom;
 	filter:brightness(100%);
 }
