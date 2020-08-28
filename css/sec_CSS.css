@@ -529,7 +529,7 @@
 .sec6_header{
 	margin-top: 0px;
 	padding-top:140px;
-	margin-left: 240px;
+	margin-left: 210px;
 	text-align: center;	
 	width: 950px;
 }
@@ -605,6 +605,7 @@
 	color: white;
 	font-size: 17px;
 	font-family: "Segoe UI Light";
+	line-height: 150%;
 	margin-top:30px;
 }
 
