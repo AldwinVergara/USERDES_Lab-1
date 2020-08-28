@@ -1157,18 +1157,22 @@
 	color: #333;
 }
 
-.icons a:hover{
-	color: #333;
+.icons #fb:hover{
+	color: #3b5998;
+}
+.icons #ttr:hover{
+	color: #00ACEE;
+}
+.icons #ig:hover{
+	color: #cc2366; 
 }
 
-.icons a:active{
+.icons a:visited{
  color:#333;
- opacity: 0.7;
+ opacity: 0.2;
 }
 
-.icons a::after{
-	color: #333;
-}
+
 
 .icons a i{
 	margin-right:50px;
