@@ -38,6 +38,42 @@
   <!------------------------------------------------SECTION 1----------------------------------------------------------------------------------->
   <section class="sec1">
 
+    <!---------NAVBAR-------------->
+    <nav class="navbar transparent navbar-fixed-top" >
+      <div class="container-fluid">
+         <!--page scroll button for -->
+        <div class="navbar-header" role="navigation">
+    
+          <a class="navbar-brand header_title color_1" href="web.html" title="Home" style="font-size:60px; margin-top:10px; font-family: Gabriola">Personal Portfolio</a>
+          <a href="web.html"><h2 class="navbar-brand" title="Home" style="color: white; margin-left:-345px; margin-bottom:-14px; margin-top:35px; font-size:15px">Project for UI/UX Design and Programming</h2></a>
+  
+         </div>	<!--page scroll button-->
+         
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a title="Notifications" class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white"><i class="fas fa-bell" ></i><span class="badge" style="background-color:red">10</span></a></li>	
+            
+            <li onclick="myFunction()" title="Menu"><a href="#" ><i class="fas fa-th"></i></a>
+              
+                <ul class="dropdown menu1">
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#contact"><i class="far fa-address-book"></i>  Home</a>
+                    <a href="#about"><i class="far fa-question-circle"></i>  Activities</a>
+                    <a href="#base"><i class="far fa-building"></i>  Reflection Papers</a>
+                    <a href="#blog"><i class="far fa-edit"></i>  Guide Questions</a>
+                    
+                  </div>
+                </ul>
+              </ul>
+            </li>
+
+          </ul>
+      
+        </div> <!--navbar collapse-->
+        </div> <!--container-fluid-->  
+    </nav>
+
+
     <!--HEADER NAME-->
     <div class="headerName" id="headerName">
       <h2>Hello, I'm</h2>
@@ -463,6 +499,25 @@
 
 
 <script>
+
+  /////////////*NAVBARRR*//////////////
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 600) {
+    $('nav').addClass('navbar-inverse');
+    $('a').addClass('color_2');
+    
+    } else {
+    $('nav').removeClass('navbar-inverse');
+    $('a').removeClass('color_2');	
+  }
+  
+  });
+
+ /*For Menu*/
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
   /////////////////////////////////////////////////*FOR SCROLL DOWN*/////////////////////////
   
   $("#btn_name").click(function() {

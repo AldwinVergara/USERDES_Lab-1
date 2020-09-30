@@ -1,5 +1,122 @@
 /*/////////////////////////////////////////////////////////////////SECTION 1/////////////////////////////////////////////////////////*/
 
+/*/////NAVBAR/////*/
+/************************NAVBAR************************/
+nav.navbar{
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	padding:10px;
+	 z-index: 9999;
+ }
+ 
+ nav.navbar.navbar-inverse {
+	 background-color: #91bfcf;
+	 border-bottom:transparent;
+ }
+ 
+ .navbar-right li:hover{
+	background-color: transparent;
+}
+ .navbar-right li:hover i{
+	 color:#91bfcf;
+ }
+ 
+ .transparent {
+   background-color:rgba(0,0,0,0);
+ }
+ 
+ .color_1{
+	 color:#015668;
+ }
+ 
+ .color_1:hover{
+	 color:#91bfcf;
+ }
+ 
+ 
+ a.navbar-brand.color_2{
+	 color:white;
+ }
+ 
+ 
+ 
+ .navbar-brand{
+	 text-decoration:none;
+ }
+ .navbar-right .fa-bell{
+	 font-size:25px; 
+	 color:white;
+ }
+ 
+ .navbar-right .fa-th{
+	 font-size:25px; 
+	 color:white;
+ }
+ 
+ .account{
+	 height:45px;
+	 padding:2px; 
+	 margin-top: -24px; 
+	 margin-bottom: -23px;
+	 border-radius: 50%;
+ }
+
+/*MENU*/
+  .menu1{
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-top:-20px;
+	
+  }
+  
+  .menu1 ::placeholder{
+	  color:white;
+	  font-weight:bold;
+	 
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	min-width: 200px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	right: 0;
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+  }
+  
+  .menu1 a:hover{
+	  background-color: rgba(229, 227, 227 , 1);
+	  font-weight: bold;
+	  color:#555;
+	  border-left: 8px solid white;
+	  text-decoration: none;
+  }
+  
+  .menu1 a i{
+	  color: #91bfcf;
+	  font-size:20px;
+  }
+
+	.menu1 a:hover i{
+		color: #555
+	}
+  
+  .show {
+	  display: block;}
+  
+
+ /*TITLE PAGE*/
 .headerName{
 	margin-top: 10px;
 	padding-top: 150px;
