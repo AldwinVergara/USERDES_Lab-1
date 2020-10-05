@@ -22,33 +22,27 @@ section{
 
 	
 	section.sec2 {
-		background-image: url(https://imgur.com/0hpGsm1.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-attachment: fixed;
 		background-size: cover;
 		margin-top:0px;
-		height:500px;
+		height:700px;
 	}
 	
 	section.sec3{
-		height:2000px;
+		height:3450px;
 		margin-top:-70px;
 	}
 	
-	section.sec4{
-		background-image: url(https://imgur.com/0hpGsm1.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-attachment: fixed;
-		background-size: cover;
-		margin-top:0px;
-		height:500px;
-	}
+
 
 	section.sec5{
-		height:2000px;
+		height:3400px;
 		
+	}
+
+	section.referenceSEC5{
+		height:1000px;
 	}
 
 
@@ -271,7 +265,80 @@ nav.navbar{
 }
 
 /*/////////////////////////////////////////////////////////////////SECTION 2/////////////////////////////////////////////////////////*/
-/*//PICTURE//*/
+/*********************PIC SLIDER ****************SEC 1*/
+.car_1, .slide1, .carousel-inner .active{
+	height:100%;
+	
+	}
+	.inner1 {
+	height:100%;
+	
+	}
+	.car_1 {
+	margin-bottom: 60px;
+	}
+	.carousel-item {
+	  display: block;
+	  position: absolute;
+	  opacity: 0;
+	  transition: opacity .75s ease-in-out;
+	}
+	.carousel-item.active {
+	  opacity: 1;
+	}
+	.car_1 .slide1 {
+	background-color: #777;
+	}
+	.car_1 .carousel-inner .bg {
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+	.car_1 .carousel-inner .bg1 {
+		
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(../img/newsfeed.png);
+	background-position: center top;
+	filter:brightness(100%);
+	}
+	
+	.car_1 .carousel-inner .bg2 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/watch.png);
+	background-position: center center;
+	filter:brightness(100%);
+	}
+	.car_1 .carousel-inner .bg3 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/albums.png);
+	background-position: center bottom;
+	filter:brightness(100%);
+	}
+	
+	.car_1 .carousel-inner .bg4 {
+	background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/games.png);
+	background-position: center bottom;
+	filter:brightness(100%);
+	}
+
+	.car_1 .carousel-inner .bg5 {
+		background-image: linear-gradient(transparent, transparent,  rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),url(../img/pages.png);
+		background-position: center bottom;
+		filter:brightness(100%);
+	}
+
+.carousel-caption {
+	z-index: 10;
+	}
+
+.carousel-caption h1{
+	font-family: 'Gabriola';
+	font-size: 100px;
+	text-shadow: 2px 2px 3px rgba(0, 1, 0, 0.7);
+}
+
+.carousel-caption p{
+	font-family: 'Courier New';
+	font-size: 30px;
+	margin: -30px;
+}
+
 
 
 /*/////////////////////////////////////////////////////////////////SECTION 3/////////////////////////////////////////////////////////*/
@@ -299,18 +366,16 @@ nav.navbar{
 	margin-left: 510px;
 }
 
-.textContent3 h3{
-	position: absolute;
-	color: #333;
-	font-size: 20px;
-	font-family: "Courier New";
-	margin-top:450px;
-	padding-left: 150px;
-	padding-right: 150px;
-	line-height: 150%;
-	text-align: justify;
+.persona1 img{
+	margin-top: -150px;
 }
 
+.persona1 img,
+.persona2 img,
+.persona3 img{
+	margin-bottom: 100px;
+	width:80%;
+}
 
 /*/////////////////////////////////////////////////////////////////SECTION 4/////////////////////////////////////////////////////////*/
 /*//PICTURE//*/
@@ -339,17 +404,37 @@ nav.navbar{
 	margin-top: 280px;
 	margin-left: 520px;
 }
+.prototype img{
+	margin-bottom: 100px;
+	width:60%;
+}
 
-.textContent5 h3{
+/*////////////////////References on SECTION 5////////////////////////*/
+.references5{
+	margin-top:10px;
+	padding-top: 80px;
+	text-align: center;
+}
+.references5 h1{
+	font-size: 300px;
+	margin-top:-100px;
+	float:left;
+	margin-left:30px;
+	color: rgba(85, 85, 85, 0.2);
+	font-family: "Gabriola";
+}
+
+.references5 h3{
 	position: absolute;
 	color: #333;
 	font-size: 20px;
 	font-family: "Courier New";
-	margin-top:450px;
+	margin-top:200px;
 	padding-left: 150px;
 	padding-right: 150px;
 	line-height: 150%;
 	text-align: justify;
+	padding-right: 50px;
 }
 
 

@@ -24,13 +24,13 @@ section{
 		height:1000px;
 	}
 	section.sec2 {
-		background-image: url(https://imgur.com/0hpGsm1.jpg);
+		background-image: url(../img/ux.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: fixed;
 		background-size: cover;
 		margin-top:0px;
-		height:500px;
+		height:600px;
 	}
 	
 	section.sec3{
@@ -41,7 +41,7 @@ section{
 		height:1200px;
 	}
 	section.sec4{
-		background-image: url(https://imgur.com/0hpGsm1.jpg);
+		background-image: url(../img/prototyping.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: fixed;
@@ -51,10 +51,10 @@ section{
 	}
 
 	section.sec5{
-		height:3000px;
+		height:3500px;
 	}
 	section.referenceSEC5{
-		height:1200px;
+		height:1000px;
 	}
 
 
@@ -415,6 +415,19 @@ nav.navbar{
 	text-align: justify;
 }
 
+.lowFidelity img{
+	margin-bottom: 20px;
+	width:70%;
+	margin-top: 50px;
+	margin-left: 180px;
+}
+
+.highFidelity img{
+	margin-bottom: 20px;
+	width:90%;
+	margin-top: 50px;
+	margin-left: 60px;
+}
 /*////////////////////References on SECTION 5////////////////////////*/
 .references5{
 	margin-top:10px;
