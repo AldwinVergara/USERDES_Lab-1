@@ -13,7 +13,7 @@ section{
 	}
 	
 	section.sec1{
-		height:2300px;
+		height:1700px;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -33,6 +33,7 @@ section{
 	
 	section.sec3{
 		height:2000px;
+		margin-top:-70px;
 	}
 	
 	section.sec4{
@@ -47,6 +48,7 @@ section{
 
 	section.sec5{
 		height:2000px;
+		
 	}
 
 
@@ -187,14 +189,6 @@ nav.navbar{
 	margin-top:50px;
 }
 
-.headerName h3{
-	color: #333;
-	font-size: 20px;
-	font-family: "Courier New";
-	margin-top:20px;
-	padding-left: 150px;
-	padding-right: 150px;
-}
 
 /*/////////TEXT CONTENT//////////////////////*/
 

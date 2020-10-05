@@ -51,9 +51,11 @@ section{
 	}
 
 	section.sec5{
-		height:2000px;
+		height:3000px;
 	}
-
+	section.referenceSEC5{
+		height:1200px;
+	}
 
 
 /*/////////////////////////////////////////////////////////////////SECTION 1/////////////////////////////////////////////////////////*/
@@ -223,7 +225,7 @@ nav.navbar{
 	font-size: 100px;
 	font-family: "Gabriola";
 	margin-top: 280px;
-	margin-left: 330px;
+	margin-left: 380px;
 }
 
 .textContent h3{
@@ -331,7 +333,7 @@ nav.navbar{
 	font-size: 100px;
 	font-family: "Gabriola";
 	margin-top: 280px;
-	margin-left: 330px;
+	margin-left: 280px;
 }
 
 .textContent3 h3{
@@ -398,15 +400,42 @@ nav.navbar{
 	font-size: 100px;
 	font-family: "Gabriola";
 	margin-top: 280px;
-	margin-left: 520px;
+	margin-left: 370px;
 }
 
 .textContent5 h3{
 	position: absolute;
 	color: #333;
-	font-size: 25px;
+	font-size: 20px;
 	font-family: "Courier New";
 	margin-top:450px;
+	padding-left: 150px;
+	padding-right: 150px;
+	line-height: 150%;
+	text-align: justify;
+}
+
+/*////////////////////References on SECTION 5////////////////////////*/
+.references5{
+	margin-top:10px;
+	padding-top: 80px;
+	text-align: center;
+}
+.references5 h1{
+	font-size: 300px;
+	margin-top:-100px;
+	float:left;
+	margin-left:30px;
+	color: rgba(85, 85, 85, 0.2);
+	font-family: "Gabriola";
+}
+
+.references5 h3{
+	position: absolute;
+	color: #333;
+	font-size: 20px;
+	font-family: "Courier New";
+	margin-top:200px;
 	padding-left: 150px;
 	padding-right: 150px;
 	line-height: 150%;
