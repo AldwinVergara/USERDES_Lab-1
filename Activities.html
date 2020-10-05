@@ -74,6 +74,7 @@
     <div class="headerName" id="headerName">
       <h2>USERDES</h2>
       <h1>Activities</h1>
+      <a id="btn_name"><span></span></a>
       
     </div>
 
@@ -255,6 +256,14 @@
 
   $('.list_products').on('click','a', function(){
     $(this).addClass('active').siblings().removeClass('active');
+  });
+
+  /////////////////////////////////////////////////*FOR SCROLL DOWN*/////////////////////////
+  
+  $("#btn_name").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#textContent").offset().top
+    }, 500);
   });
 </script>
 

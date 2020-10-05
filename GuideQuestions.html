@@ -74,13 +74,14 @@
     <div class="headerName" id="headerName">
       <h2>USERDES</h2>
       <h1>Guide Questions</h1>
+      <a id="btn_name"><span></span></a>
       
     </div>
 
     <div class="textContent" id="textContent">
-      <h1>01</h1>
+      <h1 >01</h1>
       <h2>What is User Design?</h2>
-      <h3><h style="font-size:30px"><b>What is Design?</b></h><br><br>
+      <h3><h style="font-size:30px" ><b>What is Design?</b></h><br><br>
 
         Design is a plan or drawing produced to show the look and function or workings of a
         building, garment, or other object before it is built or made (Lexico, n.d.). A design is a
@@ -424,6 +425,15 @@
   $('.list_products').on('click','a', function(){
     $(this).addClass('active').siblings().removeClass('active');
   });
+
+  /////////////////////////////////////////////////*FOR SCROLL DOWN*/////////////////////////
+  
+  $("#btn_name").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#textContent").offset().top
+    }, 500);
+  });
+
 </script>
 
 
