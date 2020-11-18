@@ -362,7 +362,16 @@ nav.navbar{
 .persona3 img{
 	margin-bottom: 100px;
 	width:80%;
+	transition: transform .4s;
 }
+
+.persona1 img:hover,
+.persona2 img:hover,
+.persona3 img:hover{
+	transform: scale(1.02);
+	transform-origin: 50% 50%;
+}
+
 
 /*/////////////////////////////////////////////////////////////////SECTION 4/////////////////////////////////////////////////////////*/
 /*//PICTURE//*/
@@ -455,7 +464,14 @@ nav.navbar{
 	margin-bottom: 50px;
 	margin-left:230px;	
 	width:60%;
+	transition: transform .4s;
 }
+
+.a4_img img:hover{
+	transform: scale(1.02);
+	transform-origin: 50% 50%;
+}
+
 .textContent4{
 	margin-top:10px;
 	padding-top: 80px;
@@ -623,6 +639,12 @@ nav.navbar{
 	margin-bottom: 50px;
 	margin-left:230px;	
 	width:60%;
+	transition: transform .4s;
+}
+
+.a7_img img:hover{
+	transform: scale(1.02);
+	transform-origin: 50% 50%;
 }
 .a7_img1 img{
 	margin-top: 10px;
@@ -636,6 +658,12 @@ nav.navbar{
 	margin-bottom: 50px;
 	margin-left:170px;	
 	width:70%;
+	transition: transform .4s;
+}
+
+.a7_img2 img:hover{
+	transform: scale(1.02);
+	transform-origin: 50% 50%;
 }
 
 .a7_img3 img{
@@ -643,6 +671,12 @@ nav.navbar{
 	margin-bottom: 50px;
 	margin-left:170px;	
 	width:70%;
+	transition: transform .4s;
+}
+
+.a7_img3 img:hover{
+	transform: scale(1.02);
+	transform-origin: 50% 50%;
 }
 
 .i7 img{

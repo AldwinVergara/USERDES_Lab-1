@@ -331,6 +331,16 @@ div.desc a{
 	color:#333333;
 }
 
+div.desc a:hover{
+	color:#91bfcf;
+	text-decoration: none;
+	font-size:31px;
+}
+
+div.desc a:active, div.desc a:visited, div.desc a:focus{
+	text-decoration: none;
+}
+
 
 /*/////////////////////////////////////////////////////////////////SECTION 2/////////////////////////////////////////////////////////*/
 
