@@ -43,7 +43,7 @@ nav.navbar{
 	background-color: transparent;
 }
  .navbar-right li:hover i{
-	 color:#91bfcf;
+	 color:white;
  }
  
  .transparent {
@@ -64,12 +64,12 @@ nav.navbar{
  }
  .navbar-right .fa-bell{
 	 font-size:25px; 
-	 color:white;
+	 color:#555;
  }
  
  .navbar-right .fa-th{
 	 font-size:25px; 
-	 color:white;
+	 color:#555;
  }
  
  .account{
